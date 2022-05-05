@@ -1,0 +1,135 @@
+
+ body {
+      
+      background-color: #dddddd;
+      font-family: Roboto, Helvetica;
+      margin: 0;
+    }
+  
+    .c-site-header {
+      position: fixed;
+      width: 100%;
+      height: 90px;
+      top: 0;
+      align-items: center;
+      background-color: #474554;
+      display: flex;
+      justify-content: space-between;      
+    }
+  
+    /* nav bar */
+    .nav-bar {
+      display: flex;
+      font-size: 20px;
+      margin-right: 0px;   
+    }
+  
+    /* nav resize */
+    @media (max-width: 800px) {
+      .nav-bar {
+        flex-direction: column;
+      }
+    }  
+  
+    /* nav bar text */
+    .nav-link {
+      color: #f7f8f8;
+      padding: 25px;
+      text-decoration: none;
+    }
+  
+    /* nav bar hover color */
+    .nav-link:hover {
+      color: #020101;
+    }
+  
+    /* services container */
+    .services-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+    }
+  
+    /* services box */
+    .services {
+      background-color: #aca7cb;
+      border: 1px solid;  
+      margin: 20px;
+      width: 200px;   
+    }
+  
+    h1 {
+      text-align: center;    
+    }
+  
+    h2 {
+      font-size: 30px;
+      text-align: center;
+    } 
+
+
+  
+    /* Features container */
+    .features-container {
+      display: flex;
+      flex-direction: column;  
+    }
+  
+    /* Features */
+    .features { 
+      font-size: 20px;
+      margin-left: 80px;
+    }
+  
+    .features p {
+      font-size: 17px;
+    }
+  
+   .about {
+      padding: 50px;
+    }
+  
+   .vid {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .email-form {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  
+  .c-site-footer {
+  align-items: center;
+  background-color: #474554;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 30px;
+  }
+  
+    /* footer */  
+    .footer-items a {
+      text-decoration: none;
+      padding: 25px;
+      color: #f7f8f8;
+    }
+
+.example-container {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#474554;
+  color: white;
+}
+
+#comment-box {
+ padding: 5px;
+ border-style:solid;
+ border-color:black;
+ height: 150px;
+ text-align: left;
+}
+
